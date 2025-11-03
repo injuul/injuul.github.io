@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Iver Nygård Juul - Home</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    </head>
+    <body>
+        <header>
+            <h1>Iver Nygård Juul</h1>
+        </header>
+
+        <nav>
+            <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            <a href="https://github.com/injuul" target="_blank"><i class="fa-solid fa-terminal"></i> Projects</a>
+            <a href="social.html"><i class="fas fa-users"></i> Social</a>
+        </nav>
+
+        <div class="container">
+            <div class="social-links">
+                <h3>Pick a platform and say hi:</h3>
+                <a
+                    href="https://discordapp.com/users/491991386220920852"
+                    target="_blank"
+                    ><i class="fab fa-discord"></i> Discord</a
+                >
+                <a
+                    href="https://snapchat.com/add/iverjuul"
+                    target="_blank"
+                    ><i class="fab fa-snapchat"></i> Snapchat</a
+                >
+                <a
+                    href="https://messenger.com/iver.juul"
+                    target="_blank"
+                    ><i class="fab fa-facebook-messenger"></i> Messenger</a
+                >
+                <a
+                    target="_blank"
+                    onclick="copyText('iver.juul7959@gmail.com')"
+                    ><i class="fas fa-envelope"></i> iver.juul7959@gmail.com</a
+                >
+                <a
+                    target="_blank"
+                    onclick="copyText('+4741448205')"
+                    ><i class="fas fa-phone"></i> tlf:+4741448205</a
+                >
+            </div>
+        </div>
+    </div>
+    <script>
+        function copyText(txt) {
+        navigator.clipboard.writeText(txt)
+        alert("Copied: " + txt)
+        }
+    </script>
+
+        <footer>
+            <p>
+                &copy; 2024 Iver Nygård Juul. No Rights Reserved.
+            </p>
+        </footer>
+    </body>
+</html>
