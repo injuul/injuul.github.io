@@ -39,6 +39,7 @@ p {
     line-height: 1.5;
     max-width: 700px;
 }
+
 .social-links a {
     display: inline-block;
     margin: 30px;
@@ -53,6 +54,11 @@ p {
 }
 .social-links a:hover {
     background-color: #625596;
+}
+.social-links p {
+    margin: 0;
+    margin-top: 0px;
+    font-size: 1rem;
 }
 footer {
     color: #aaa;
